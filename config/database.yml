@@ -7,18 +7,15 @@ default: &default
 
 development:
   <<: *default
-  database: postgres
+  database: mind_app
   username: postgres
   host: ''
-  password: 141512
-  port: 5435
 
 test:
   <<: *default
-  database: postgres
+  database: mind_app
   username: postgres
   host: ''
-  password: 141512
 
 production:
   <<: *default
